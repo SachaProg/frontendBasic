@@ -9,6 +9,7 @@ public class MyVaadinApplication extends UI {
 
     @Override
     public void init(VaadinRequest request) {
+
         setContent(new BasicUI(new UserManagerImpl()));
     }
 
